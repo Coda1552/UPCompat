@@ -34,7 +34,7 @@ public class FangFlyEggEntity extends ThrowableItemProjectile {
     public void handleEntityEvent(byte p_37484_) {
         if (p_37484_ == 3) {
             for(int i = 0; i < 8; ++i) {
-                this.level.addParticle(new ItemParticleOption(ParticleTypes.ITEM, this.getItem()), this.getX(), this.getY(), this.getZ(), ((double)this.random.nextFloat() - 0.5D) * 0.08D, ((double)this.random.nextFloat() - 0.5D) * 0.08D, ((double)this.random.nextFloat() - 0.5D) * 0.08D);
+                this.level().addParticle(new ItemParticleOption(ParticleTypes.ITEM, this.getItem()), this.getX(), this.getY(), this.getZ(), ((double)this.random.nextFloat() - 0.5D) * 0.08D, ((double)this.random.nextFloat() - 0.5D) * 0.08D, ((double)this.random.nextFloat() - 0.5D) * 0.08D);
             }
         }
 
@@ -42,12 +42,12 @@ public class FangFlyEggEntity extends ThrowableItemProjectile {
 
     protected void onHitEntity(EntityHitResult p_37486_) {
         super.onHitEntity(p_37486_);
-        p_37486_.getEntity().hurt(DamageSource.thrown(this, this.getOwner()), 0.0F);
+        p_37486_.getEntity().hurt(damageSources().thrown(this, this.getOwner()), 0.0F);
     }
 
     protected void onHit(HitResult p_37488_) {
         super.onHit(p_37488_);
-        if (!this.level.isClientSide) {
+        if (!this.level().isClientSide) {
             if (this.random.nextInt(4) == 0) {
                 int i = 1;
                 if (this.random.nextInt(16) == 0) {
@@ -55,14 +55,14 @@ public class FangFlyEggEntity extends ThrowableItemProjectile {
                 }
 
                 for(int j = 0; j < i; ++j) {
-                    FangFly fly = CEEntities.FANG_FLY.get().create(this.level);
+                    FangFly fly = CEEntities.FANG_FLY.get().create(this.level());
                     fly.setAge(-24000);
                     fly.moveTo(this.getX(), this.getY(), this.getZ(), this.getYRot(), 0.0F);
-                    this.level.addFreshEntity(fly);
+                    this.level().addFreshEntity(fly);
                 }
             }
 
-            this.level.broadcastEntityEvent(this, (byte)3);
+            this.level().broadcastEntityEvent(this, (byte)3);
             this.discard();
         }
 

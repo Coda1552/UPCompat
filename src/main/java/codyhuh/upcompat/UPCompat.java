@@ -3,6 +3,7 @@ package codyhuh.upcompat;
 import codyhuh.upcompat.registry.UPCBlocks;
 import codyhuh.upcompat.registry.UPCEntities;
 import codyhuh.upcompat.registry.UPCItems;
+import codyhuh.upcompat.registry.UPCTabs;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -16,6 +17,7 @@ public class UPCompat {
 
         UPCItems.ITEMS.register(bus);
         UPCEntities.ENTITIES.register(bus);
+        UPCTabs.TABS.register(bus);
         UPCBlocks.BLOCKS.register(bus);
     }
 }
