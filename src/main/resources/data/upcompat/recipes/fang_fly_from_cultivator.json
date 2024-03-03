@@ -1,0 +1,11 @@
+{
+  "type": "unusualprehistory:cultivator",
+  "ingredients": [
+    {
+      "item": "upcompat:fang_fly_flask"
+    }
+  ],
+  "output": {
+    "item": "upcompat:fang_fly_egg"
+  }
+}

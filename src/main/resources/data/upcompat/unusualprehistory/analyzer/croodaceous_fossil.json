@@ -1,0 +1,53 @@
+{
+  "input": ["upcompat:croodaceous_fossil"],
+  "entries": [
+    {
+      "weight": 25,
+      "item": "upcompat:fang_fly_flask"
+    },
+    {
+      "weight": 15,
+      "item": "upcompat:bear_pear_flask"
+    },
+    {
+      "weight": 2,
+      "item": "upcompat:bearowl_flask"
+    },
+    {
+      "weight": 15,
+      "item": "upcompat:jackrobat_flask"
+    },
+    {
+      "weight": 10,
+      "item": "upcompat:liyote_flask"
+    },
+    {
+      "weight": 10,
+      "item": "upcompat:ramu_flask"
+    },
+    {
+      "weight": 5,
+      "item": "upcompat:turtle_dove_flask"
+    },
+    {
+      "weight": 5,
+      "item": "croodaceous:ramu_nest"
+    },
+    {
+      "weight": 10,
+      "item": "upcompat:desert_baobab_flask"
+    },
+    {
+      "weight": 30,
+      "item": "upcompat:dry_bush_flask"
+    },
+    {
+      "weight": 4,
+      "item": "croodaceous:hoodoo_shale"
+    },
+    {
+      "weight": 40,
+      "item": "croodaceous:desolate_sand"
+    }
+  ]
+}

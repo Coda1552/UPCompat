@@ -1,0 +1,11 @@
+{
+  "type": "unusualprehistory:cultivator",
+  "ingredients": [
+    {
+      "item": "upcompat:jackrobat_flask"
+    }
+  ],
+  "output": {
+    "item": "upcompat:jackrobat_embryo"
+  }
+}

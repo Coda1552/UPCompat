@@ -1,0 +1,6 @@
+{
+  "replace": false,
+  "values": [
+    "upcompat:terracotta_fossil"
+  ]
+}

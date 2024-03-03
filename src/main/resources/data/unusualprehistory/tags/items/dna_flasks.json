@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "upcompat:bearowl_flask",
+    "upcompat:bear_pear_flask",
+    "upcompat:ramu_flask",
+    "upcompat:liyote_flask",
+    "upcompat:fang_fly_flask",
+    "upcompat:jackrobat_flask",
+    "upcompat:turtle_dove_flask",
+    "upcompat:dry_bush_flask",
+    "upcompat:desert_baobab_flask"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "unusualprehistory:incubating",
+  "ingredients": [
+    {
+      "item": "upcompat:bearowl_embryo"
+    }
+  ],
+  "output": "croodaceous:bearowl"
+}

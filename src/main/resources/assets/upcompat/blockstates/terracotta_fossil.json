@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "upcompat:block/terracotta_fossil"
+    }
+  }
+}

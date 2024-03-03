@@ -1,0 +1,11 @@
+{
+  "type": "unusualprehistory:cultivator",
+  "ingredients": [
+    {
+      "item": "upcompat:desert_baobab_flask"
+    }
+  ],
+  "output": {
+    "item": "croodaceous:desert_baobab_sapling"
+  }
+}

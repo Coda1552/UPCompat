@@ -1,0 +1,11 @@
+{
+  "type": "unusualprehistory:cultivator",
+  "ingredients": [
+    {
+      "item": "upcompat:ramu_flask"
+    }
+  ],
+  "output": {
+    "item": "croodaceous:ramu_egg"
+  }
+}

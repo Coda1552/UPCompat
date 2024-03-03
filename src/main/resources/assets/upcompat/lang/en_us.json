@@ -1,0 +1,26 @@
+{
+  "itemGroup.upcompat": "Unusual Prehistory Compatability",
+
+  "item.upcompat.croodaceous_fossil": "Croodaceous Fossil",
+
+  "item.upcompat.bear_pear_embryo": "Bear Pear Embryo",
+  "item.upcompat.bearowl_embryo": "Bearowl Embryo",
+  "item.upcompat.liyote_embryo": "Liyote Embryo",
+  "item.upcompat.jackrobat_embryo": "Jackrobat Embryo",
+  "item.upcompat.fang_fly_egg": "Fang Fly Egg",
+
+  "item.upcompat.bearowl_flask": "Bearowl DNA Flask",
+  "item.upcompat.bear_pear_flask": "Bear Pear DNA Flask",
+  "item.upcompat.ramu_flask": "Ramu DNA Flask",
+  "item.upcompat.liyote_flask": "Liyote DNA Flask",
+  "item.upcompat.fang_fly_flask": "Fang Fly DNA Flask",
+  "item.upcompat.jackrobat_flask": "Jackrobat DNA Flask",
+  "item.upcompat.turtle_dove_flask": "Turtle Dove DNA Flask",
+  "item.upcompat.desert_baobab_flask": "Desert Baobab DNA Flask",
+  "item.upcompat.dry_bush_flask": "Dry Bush DNA Flask",
+
+  "block.upcompat.terracotta_fossil": "Terracotta Fossil",
+  "block.upcompat.turtle_dove_egg": "Turtle Dove Egg",
+
+  "entity.upcompat.fang_fly_egg": "Fang Fly Egg"
+}

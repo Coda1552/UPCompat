@@ -1,0 +1,9 @@
+{
+  "type": "unusualprehistory:incubating",
+  "ingredients": [
+    {
+      "item": "upcompat:liyote_embryo"
+    }
+  ],
+  "output": "croodaceous:liyote"
+}

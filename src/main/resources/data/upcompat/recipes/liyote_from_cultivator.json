@@ -1,0 +1,11 @@
+{
+  "type": "unusualprehistory:cultivator",
+  "ingredients": [
+    {
+      "item": "upcompat:liyote_flask"
+    }
+  ],
+  "output": {
+    "item": "upcompat:liyote_embryo"
+  }
+}

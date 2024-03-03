@@ -1,0 +1,11 @@
+{
+  "type": "unusualprehistory:cultivator",
+  "ingredients": [
+    {
+      "item": "upcompat:dry_bush_flask"
+    }
+  ],
+  "output": {
+    "item": "croodaceous:dry_bush"
+  }
+}

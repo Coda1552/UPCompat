@@ -1,0 +1,11 @@
+{
+  "type": "unusualprehistory:cultivator",
+  "ingredients": [
+    {
+      "item": "upcompat:bear_pear_flask"
+    }
+  ],
+  "output": {
+    "item": "upcompat:bear_pear_embryo"
+  }
+}

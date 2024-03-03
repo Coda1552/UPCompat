@@ -1,0 +1,11 @@
+{
+  "type": "unusualprehistory:cultivator",
+  "ingredients": [
+    {
+      "item": "upcompat:bearowl_flask"
+    }
+  ],
+  "output": {
+    "item": "upcompat:bearowl_embryo"
+  }
+}
